@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @sitemarx_model.url %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sitemarx_model.name %>
+</p>
+
+<p>
+  <strong>Saved at:</strong>
+  <%= @sitemarx_model.saved_at %>
+</p>
+
+<%= link_to 'Edit', edit_sitemarx_model_path(@sitemarx_model) %> |
+<%= link_to 'Back', sitemarx_models_path %>

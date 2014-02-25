@@ -1,0 +1,2 @@
+module SitemarxModelsHelper
+end
