@@ -20,7 +20,8 @@ development:
   database: sitemarx_development
   pool: 5
   username: sitemarx
-  password:
+  password: sitemarx
+  host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -49,7 +50,8 @@ test:
   database: sitemarx_test
   pool: 5
   username: sitemarx
-  password:
+  password: sitemarx
+  host: localhost
 
 production:
   adapter: postgresql
