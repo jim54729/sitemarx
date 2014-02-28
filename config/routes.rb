@@ -1,10 +1,13 @@
 Sitemarx::Application.routes.draw do
   resources :sitemarx_models
   
-  get "sitemarx_models/"
-  #get "static_pages/help"
-  #get "static_pages/about"
-  #get "static_pages/contact"
+  get "_form.html.erb/"
+  get "edit.html.erb"
+  get "index.html.erb"
+  get "index.json.jbuilder"
+  get "new.html.erb"
+  get "show.html.erb"
+  #get "show.json.jbuilder"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

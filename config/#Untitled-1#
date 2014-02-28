@@ -1,0 +1,7 @@
+_form.html.erb
+edit.html.erb
+index.html.erb
+index.json.jbuilder
+new.html.erb
+show.html.erb
+show.json.jbuilder
