@@ -7,7 +7,7 @@ Sitemarx::Application.routes.draw do
   get "index.json.jbuilder"
   get "new.html.erb"
   get "show.html.erb"
-  #get "show.json.jbuilder"
+  get "show.json.jbuilder"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
