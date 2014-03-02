@@ -1,0 +1,35 @@
+
+
+
+If your submission for Chapter 5 includes the ApplicaitonHelper#full_title helper, you'll get 5 points extra credit.
+
+git push
+$ git push heroku
+$ heroku run rake db:migrate
+
+
+Verify that a model with invalid attributes can be determined; e.g.
+
+  bookmark = Bookmark.new(invalid_attributes)
+  expect(bookmark.valid?).to be_false
+
+and:
+
+  bookmark = Bookmark.new(valid_attributes)
+  expect(bookmark.valid?).to be_true
+  
+  
+rake db:drop:all db:create:all db:migrate db:test:prepare
+
+In Rails, the typical place for adding methods to existing classes is to use the config/initializers/ folder.  So, for adding a shuffle method to String, you'd have:
+
+config/initializers/string.rb
+
+with:
+
+class String
+  def shuffle
+    # TODO: Your implementation here
+  end
+end
+
