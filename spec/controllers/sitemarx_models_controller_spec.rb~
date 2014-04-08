@@ -28,9 +28,7 @@ describe SitemarxModelsController do
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
   # SitemarxModelsController. Be sure to keep this updated too.
-  let(:name) { {"name" => "MyString"} }
-  let(:valid_attributes) { {'name' => 'somename', 'url' => 'http://example.com' } }
-  let(:valid_session) { {} }
+  let(:name) { {"name" => "MyString"} }#was empty
 
   describe "GET index" do
     it "assigns all sitemarx_models as @sitemarx_models" do
